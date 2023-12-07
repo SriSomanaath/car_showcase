@@ -2,12 +2,12 @@ import { CarCard } from '@/components';
 import { MouseEventHandler } from "react";
 
 export interface CustomButtonProps {
-    // isDisabled?: boolean;
+    isDisabled?: boolean;
     btnType?: "button" | "submit";
-    // textStyles?: string;
+    textStyles?: string;
     title: string;
     containerStyles?: string;
-    // rightIcon?: string;
+    rightIcon?: string;
     handleClick?: MouseEventHandler<HTMLButtonElement>;
   }
 
