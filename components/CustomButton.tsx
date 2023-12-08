@@ -1,6 +1,6 @@
 "use client";
 
-import { CustomButtonProps } from "@types";
+import { CustomButtonProps } from "@/types";
 import React from 'react';
 import Image from 'next/image';
 
