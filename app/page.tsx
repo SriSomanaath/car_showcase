@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { SearchBox, CustomFilter, Hero, CarCard } from '@/components'
+import {ShowMore, SearchBox, CustomFilter, Hero, CarCard } from '@/components'
 
 import { fetchCars } from "@/utils";
 import { HomeProps } from "@types";
@@ -43,10 +43,10 @@ export default async function Home({ searchParams }: HomeProps) {
               ))}
             </div>
 
-            {/* <ShowMore
+            <ShowMore
               pageNumber={(searchParams.limit || 10) / 10}
               isNext={(searchParams.limit || 10) > allCars.length}
-            /> */}
+            />
           </section>
         ) : (
           <div className='home__error-container'>
