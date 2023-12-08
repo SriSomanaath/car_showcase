@@ -3,6 +3,7 @@ import {ShowMore, SearchBox, CustomFilter, Hero, CarCard } from '@/components'
 
 import { fetchCars } from "@/utils";
 import { HomeProps } from "@/types";
+
 import { fuels, yearsOfProduction } from "@/constants";
 
 export default async function Home({ searchParams }: HomeProps) {
